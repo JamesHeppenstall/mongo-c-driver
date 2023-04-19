@@ -616,6 +616,33 @@ set (HEADERS
    ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-rand.h
    ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-stream-tls.h
    ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-ssl.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-rpc-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-array-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-cmd-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-server-stream-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-topology-description-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-set-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-apm-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-server-description-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-generation-map-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-opts-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-bulk-operation-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-write-command-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-buffer-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-opts-helpers-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-client-session-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-collection-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-compressed.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-delete.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-get-more.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-header.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-insert.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-kill-cursors.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-msg.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-query.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-reply-header.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-reply.def
+   ${PROJECT_SOURCE_DIR}/src/mongoc/op-update.def
 )
 
 set (HEADERS_FORWARDING
