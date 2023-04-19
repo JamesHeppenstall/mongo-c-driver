@@ -93,7 +93,7 @@ _mongoc_parse_cluster_time (const bson_t *cluster_time,
                             uint32_t *increment);
 
 bool
-_mongoc_cluster_time_greater (const bson_t *new, const bson_t *old);
+_mongoc_cluster_time_greater (const bson_t *new_bson, const bson_t *old_bson);
 
 void
 _mongoc_client_session_handle_reply (mongoc_client_session_t *session,
