@@ -632,6 +632,7 @@ set (HEADERS
    ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-opts-helpers-private.h
    ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-client-session-private.h
    ${PROJECT_SOURCE_DIR}/src/mongoc/mongoc-collection-private.h
+   ${PROJECT_SOURCE_DIR}/src/mongoc/mcd-rpc.h
    ${PROJECT_SOURCE_DIR}/src/mongoc/op-compressed.def
    ${PROJECT_SOURCE_DIR}/src/mongoc/op-delete.def
    ${PROJECT_SOURCE_DIR}/src/mongoc/op-get-more.def
